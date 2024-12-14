@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>MQ-Diploma</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css.css">
 </head>
 <body>
 
@@ -68,28 +68,28 @@
     <div class="header-wrapper">
       <div class="menu">
         <a class="logo-link" href="#0">
-          <img src="svg/noemi-logo.svg" class="logo" alt="Логотип Noemi">
+          <img src="./svg/noemi-logo.svg" class="logo" alt="Логотип Noemi">
         </a>
-       
-        <div class="burger-menu">
-          <nav class="header-menu">
-            <ul class="menu-list">
-              <li class="menu-list-item">
-                <a class="menu-link" href="#0">Главная</a></li>
-              <li class="menu-list-item">
-                <a class="menu-link" href="#0">Посты</a></li>
-              <li class="menu-list-item">
-                <a class="menu-link" href="#0">Статьи</a></li>
-              <li class="menu-list-item">
-                <a class="menu-link" href="#0">Теги</a></li>
-              <li class="menu-list-item">
-                <a class="menu-link" href="#0">Темы</a></li>
-              <li class="menu-list-item">
-                <a class="menu-link" href="#0">Контакты</a></li>
-            </ul>
-          </nav>
-        </div>
-       
+        <nav class="header-menu">
+          <button class="menu-burger">
+            <span class="menu-burger-label"></span>
+          </button>
+          <ul class="menu-list">
+            <li class="menu-list-item">
+              <a class="menu-link" href="#0">Главная</a></li>
+            <li class="menu-list-item">                
+              <a class="menu-link" href="#0">Посты</a></li>
+             <li class="menu-list-item">
+               <a class="menu-link" href="#0">Статьи</a></li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#0">Теги</a></li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#0">Темы</a></li>
+            <li class="menu-list-item">
+              <a class="menu-link" href="#0">Контакты</a></li>
+          </ul>
+        </nav>
+               
       </div>
       <div class="title-one">
         <h1>Блог о творчестве, спорте, и образе жизни </h1>
@@ -346,7 +346,7 @@
         <ul class="tegs-wrap">
           <li class="tags__wrap_item"><a href="#0" class="tags__wrap_link">fasion</a></li>
           <li class="tags__wrap_item"><a href="#0" class="tags__wrap_link">music</a></li>
-          <li class="tags__wrap_item"><a href="#0" class="tags__wrap_link">kifestyle</a></li>
+          <li class="tags__wrap_item"><a href="#0" class="tags__wrap_link">Lifestyle</a></li>
           <li class="tags__wrap_item"><a href="#0" class="tags__wrap_link">art</a></li>
           <li class="tags__wrap_item"><a href="#0" class="tags__wrap_link">interior</a></li>
           <li class="tags__wrap_item"><a href="#0" class="tags__wrap_link">travel</a></li>
@@ -360,7 +360,7 @@
         <ul  class="topic__wrap">
           <li class="topic__item"><a href="" class="topic__item_link">Красота</a><span class="topic__item_holder">12</span></li>
           <li class="topic__item"><a href="" class="topic__item_link">Здоровье</a><span class="topic__item_holder">4</span></li>
-          <li class="topic__item"><a href="" class="topic__item_link">Образ жизни</a><span class="topic__item_holder">156</span></li>
+          <li class="topic__item"><a href="" class="topic__item_link">Образ жизни</a><span class="topic__item_holder">145</span></li>
           <li class="topic__item"><a href="" class="topic__item_link">Музыка</a><span class="topic__item_holder">28</span></li>
           <li class="topic__item"><a href="" class="topic__item_link">Спорт</a><span class="topic__item_holder">62</span></li>
           <li class="topic__item"><a href="" class="topic__item_link">Йога</a><span class="topic__item_holder">8</span></li>
@@ -378,7 +378,13 @@
     <div class="inner-store">
       <article class="product">
         <div class="product-item-wrp-img">
-          <a href="#0"><img src="images/shop-item-desk1.jpg" class="img-store" alt="Подушка на диван"></a>
+          <a href="#0">
+            <picture>
+              <source media="(max-width: 640px)" srcset="images/shop-item-mobile1.jpg">
+              <source media="(max-width: 1199px)" srcset="images/shop-item-tablet1.jpg">
+              <source media="(min-width: 1200px)" srcset="images/shop-item-desk1.jpg">
+              <img class="img-store" src="images/shop-item-desk1.jpg" alt="Подушка на диван">
+          </picture></a>
         </div> <!-- product-item-wrp-img -->
         <div class="wrp-product">
           <h3 class="title-link link-product">Подушки на диван</h3>
@@ -399,7 +405,13 @@
 
       <article class="product">
         <div class="product-item-wrp-img">
-          <a href="#0"><img src="images/shop-item-desk2.jpg" class="img-store" alt="Подушка на диван"></a>
+          <a href="#0">
+            <picture>
+              <source media="(max-width: 640px)" srcset="images/shop-item-mobile2.jpg">
+              <source media="(max-width: 1199px)" srcset="images/shop-item-tablet2.jpg">
+              <source media="(min-width: 1200px)" srcset="images/shop-item-desk2.jpg">
+              <img class="img-store" src="images/shop-item-desk2.jpg" alt="Подушка на диван">
+          </picture></a>
         </div> <!-- product-item-wrp-img -->
         <div class="wrp-product">
           <h3 class="title-link link-product">Кукла «Зайчик»</h3>
@@ -418,7 +430,13 @@
 
       </article><article class="product">
         <div class="product-item-wrp-img">
-          <a href="#0"><img src="images/shop-item-desk3.jpg" class="img-store" alt="Подушка на диван"></a>
+          <a href="#0">
+            <picture>
+              <source media="(max-width: 640px)" srcset="images/shop-item-mobile3.jpg">
+              <source media="(max-width: 1199px)" srcset="images/shop-item-tablet3.jpg">
+              <source media="(min-width: 1200px)" srcset="images/shop-item-desk3.jpg">
+              <img class="img-store" src="images/shop-item-desk3.jpg" alt="Подушка на диван">
+            </picture></a>
         </div> <!-- product-item-wrp-img -->
         <div class="wrp-product">
           <h3 class="title-link link-product">Шестиугольная рамка</h3>
