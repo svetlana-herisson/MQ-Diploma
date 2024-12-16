@@ -19,7 +19,7 @@ a {
        url("../fonts/OpenSans-Bold.woff") format("woff"),
        url("../fonts/OpenSans-Bold.woff2") format("woff2");
   font-weight: 400;
-  font-style: bold;
+  font-style: normal;
 }
 
 @font-face {
@@ -248,7 +248,7 @@ body {
   background-position: top center;
   background-size: cover;
   padding: 30px 0px 125px 0px;
-  max-widht: 1660px;
+  max-width: 1660px;
   position: relative;
   z-index: 0;
   min-height: 290px;
@@ -423,7 +423,6 @@ h1, .title-one {
   display: flex;
   max-width: 778px;
   padding-left: 15px;
-  positoin: reletive;
   box-sizing: border-box;
 }
 
@@ -435,12 +434,16 @@ h1, .title-one {
   max-height: 380px;
 }
 
+.news-post {
+/*  position: reletive;*/
+}
+
 .post {
   margin-left: 31px;
   margin-top: -2px;
+/*  position: absolute;*/
   width: 367px;
-  positoin: absolute;
-  right: 0;
+  left: 0;
 }
 
 .teg {
@@ -459,7 +462,7 @@ h1, .title-one {
   color: #b59f5b;
   font-family: open-sans-b, sans-serif;
   font-weight: 400;
-  font-style: bold;
+  font-style: normal;
   margin-right: 20px;
 }
 
@@ -495,7 +498,7 @@ h1, .title-one {
   font-style: normal;
   font-family: open-sans-b, sans-serif;
   font-weight: 400;
-  font-style: bold;
+  font-style: normal;
   margin-left: 13px;
 }
 
@@ -524,7 +527,7 @@ h1, .title-one {
 .aside {
   width: 271px;
   margin-right: 12px;
-  position: reletive;
+  position: relative;
 }
 
 .subject {
@@ -581,13 +584,10 @@ margin-top: 34px;
 
 /* --поиск-- */
 
-.form {
-  display:flex;
-  margin-top: 54px;
-}
 
-.form-wrp {
+.form-email {
   margin-top: 35px;
+  display: block;
 }
 
 .field {
@@ -605,6 +605,8 @@ margin-top: 34px;
 
 .lable-search {
   width: 100%;
+  display: flex;
+  margin-top: 54px;
 }
 
 .visually-hidden {
@@ -709,7 +711,7 @@ margin-top: 34px;
     text-transform: uppercase;
     font-family: open-sans-b, sans-serif;
     font-weight: 400;
-    font-style: bold;
+    font-style: normal;
     font-size: 12px;
     color: #0f0d0e;
     letter-spacing: 0.5px;
@@ -730,7 +732,7 @@ margin-top: 34px;
   position: relative;
   font-family: open-sans-b, sans-serif;
   font-weight: 400;
-  font-style: bold;
+  font-style: normal;
   font-size: 14px;
   display: flex;
   padding-bottom: 28px;
@@ -867,9 +869,6 @@ margin-top: 34px;
 
 /* --FOOTER-- */
 
-.footer {
-  pedding-top: 64px;
-}
 
 .container{
   max-width: 1170px;
@@ -1027,10 +1026,11 @@ margin-top: 34px;
   }
 
   .header-wrapper {
-    max-width: 640;
+    max-width: 640px;
     padding: 15px;
     margin: 0;
   }
+
   .menu {
     position: relative;
     justify-content: center;

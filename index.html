@@ -50,7 +50,7 @@
 
       <div class="wrp-textarea">
         <label for="name">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
-        <textarea type="text" id="name" name="name" class="textarea-input">Может, больше рецептов?</textarea>
+        <textarea id="name" name="name" class="textarea-input">Может, больше рецептов?</textarea>
       </div>
 
       <div class="wrp-button-popup">
@@ -100,7 +100,7 @@
 <!-- TREND -->
 
 <article class="trend-content">
-  <h2 class="subject-trend">Сейчас в тренде</h3>
+  <h2 class="subject-trend">Сейчас в тренде</h2>
   <div class="wrp">
     <section class="wrp-trend trend-first">
       <div class="wrp-sabject-text">
@@ -237,7 +237,7 @@
     <article class="article"> <!--fifth-->
       <div class="news-post">
         <a class="news-link" href="#0">
-          <img src="images/last-post5.jpg" class="img-news" class="img-news" alt="делаем модные принты на
+          <img src="images/last-post5.jpg" class="img-news" alt="делаем модные принты на
 подушках для интерьера"></a>
       </div> <!-- news-post -->
       <div class="post"> 
@@ -317,28 +317,20 @@
         </article>
       </div>
        
-        <div>
-          <form action="#0" class="form">  
-            <lable class="lable-search" for="#0">
-              <input type class="field" name="query" placeholder="Найти...">
-              <span class="visually-hidden" aria-hidden="true">Найти...</span>
-            </lable>
+          <lable class="lable-search">
+            <input type="text" class="field" name="text" placeholder="Найти...">
+            <span class="visually-hidden" aria-hidden="true">Найти...</span>
             <button class="bottom" type="submit"></button>
-          </form>
-        </div> 
+         </lable>
       </section> <!--новые посты-->
     
       <section class="section"> <!--рассылка-->
         <h3 class="subject section-title">Рассылка</h3>
-        <div class="form-wrp">
-          <form action="#0" class="form-email">
-          <lable for="#0">
-            <input type class="field-email" name="query" placeholder="Ваш email-адрес">
+          <lable class="form-email">
+            <input type="text" class="field-email" name="text" placeholder="Ваш email-адрес">
             <span class="visually-hidden" aria-hidden="true">Ваш email-адрес</span>
+           <button class="button-email" type="submit"></button>
           </lable>
-          <button class="button-email" type="submit"></button>
-          </form>
-        </div>
       </section> <!--рассылка-->
    
       <section class="section"> <!--теги-->
