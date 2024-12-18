@@ -141,7 +141,7 @@ body {
   border: none;
   margin-top: 11px;
 
-  background-image: url("../svg/form-arrows.svg");
+  background-image: url("../SVG/form-arrows.svg");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: 95% center;
@@ -242,7 +242,7 @@ body {
 /*-- header --*/
 
 .header {
-  background-image: url("../images/banner-bg.jpg");
+  background-image: url("../Images/banner-bg.jpg");
   background-color: #000000;
   background-repeat: no-repeat;
   background-position: top center;
@@ -908,15 +908,15 @@ margin-top: 34px;
 }
 
 .tw {
-    background-image: url("../svg/003-tumblr.svg");
+    background-image: url("../SVG/003-tumblr.svg");
 }
 
 .pin {
-    background-image: url("../svg/002-pinterest.svg");
+    background-image: url("../SVG/002-pinterest.svg");
 }
 
 .ball {
-  background-image: url("../svg/001-dribbble.svg");
+  background-image: url("../SVG/001-dribbble.svg");
 }
 
 /*--------tablet--------*/
@@ -924,7 +924,7 @@ margin-top: 34px;
 @media (max-width: 1199px) {
 
   .header {
-  background-image: url("../images/banner-bg-tablet.jpg");
+  background-image: url("../Images/banner-bg-tablet.jpg");
   }
 
   .header-wrapper {
@@ -1020,7 +1020,7 @@ margin-top: 34px;
 
 @media (max-width: 640px) {
   .header {
-    background-image: url("../images/banner-mobile.jpg");
+    background-image: url("../Images/banner-mobile.jpg");
     min-height: 639px;
     box-sizing: border-box;
   }
