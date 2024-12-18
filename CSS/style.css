@@ -366,24 +366,24 @@ h1, .title-one {
 
 
 .trend-first{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/trend1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Images/trend1.jpg');
   background-size: cover;
 }
 
 
 .trend-second{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/trend2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Images/trend2.jpg");
   background-size: cover;
 
 }
 
 .trend-third{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/trend3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Images/trend3.jpg");
   background-size: cover;
 }
 
 .trend-fourth{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/trend4.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Images/trend4.jpg");
   background-size: cover;
 }
 
@@ -638,7 +638,7 @@ margin-top: 34px;
 }
 
 .bottom::before {
-  content: url("../svg/search.svg");
+  content: url("../SVG/search.svg");
   display: inline-block;
   width: 17px;
   height: 17px;
