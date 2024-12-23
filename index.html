@@ -17,25 +17,22 @@
   <input type="checkbox" id="popup1" class="popup-state">
   <div class="popup">
     <div class="popup-content">
+      <form>
+        <label class="popup-close" for="popup1">&times;</label>
+          <div class="popap-title">
+            <h2 class="subject-popup">Ваш фидшек</h2>
+          </div>
+          <div class="wrp-visit">
+            <label for="site-visit">Как часто вы заходите на сайт?</label>
+            <select class="visit" name="visit" id="site-visit">
+              <option value="every-day">Почти каждый день</option>
+              <option value="day"> Каждый день</option>
+              <option value="week">Раз в несколько недель</option>
+              <option value="year">Несколько раз в год</option>
+            </select>
+          </div>
 
-      <label class="popup-close" for="popup1">&times;</label>
-      <div class="popap-title">
-       <h2 class="subject-popup">Ваш фидшек</h2>
-      </div>
-      <div class="wrp-visit">
-        <form>
-          <label for="site-visit">Как часто вы заходите на сайт?</label>
-          <select class="visit" name="visit" id="site-visit">
-            <option value="every-day">Почти каждый день</option>
-            <option value="day"> Каждый день</option>
-            <option value="week">Раз в несколько недель</option>
-            <option value="year">Несколько раз в год</option>
-          </select>
-        </form>
-      </div>
-
-      <div class="wrp-mailing">
-        <form>
+        <div class="wrp-mailing">
           <div>Вы подписаны на e-mail рассылку?</div>
           <label>
             <input type="radio" name="mailing" class="visually-hidden radio-input">
@@ -45,20 +42,17 @@
             <input type="radio" name="mailing" class="visually-hidden radio-input">
             <span class="radio-group-text">Нет</span>
           </label>
-        </form>
-      </div>  
+        </div>  
 
-      <div class="wrp-textarea">
-        <label for="name">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
-        <textarea id="name" name="name" class="textarea-input">Может, больше рецептов?</textarea>
-      </div>
+        <div class="wrp-textarea">
+          <label for="name">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+          <textarea id="name" name="name" class="textarea-input">Может, больше рецептов?</textarea>
+        </div>
 
-      <div class="wrp-button-popup">
-        <form action="#0" class="form-button-popap">
+        <div class="wrp-button-popup">
           <button class="button-popup" type="submit"></button>
-        </form>
-      </div>
-
+        </div>
+ 
     </div>
   </div>
 
@@ -103,7 +97,7 @@
   <h2 class="subject-trend">Сейчас в тренде</h2>
   <div class="wrp">
     <section class="wrp-trend trend-first">
-      <div class="wrp-sabject-text">
+      <div class="wrp-sabject-text sabject-trend-first">
         <ul class="teg teg-item-text"> 
           <li class="teg-item"><a class="teg-link" href="#0">Lifestyle</a></li>
           <li class="teg-item"><a class="teg-link" href="#0">Interior</a></li>
@@ -380,7 +374,7 @@
         </div> <!-- product-item-wrp-img -->
         <div class="wrp-product">
           <h3 class="title-link link-product">Подушки на диван</h3>
-          <p>Набор из двух подушек с модными принтами. Видео о создании <a class="link-content-shop" href="#0">здесь</a>.</p>
+          <p class="text-store">Набор из двух подушек с модными принтами. Видео о создании <a class="link-content-shop" href="#0">здесь</a>.</p>
           <div class="product-info">
             <div class="price">
               <div class="old-prise">1000</div>
@@ -406,10 +400,10 @@
           </picture></a>
         </div> <!-- product-item-wrp-img -->
         <div class="wrp-product">
-          <h3 class="title-link link-product">Кукла «Зайчик»</h3>
-          <p>Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена<a class="link-content-shop" href="#0"> весенняя серия постов</a> в блоге и несколько подкастов..</p>
+          <h3 class="title-link link-product">Кукла &laquo;Зайчик&raquo;</h3>
+          <p class="text-store">Интерьерная рукодельная кукла &laquo;Зайчик&raquo;, созданию которой посвящена<a class="link-content-shop" href="#0"> весенняя серия постов</a> в блоге и несколько подкастов..</p>
           <div class="product-info">
-            <div class="price">
+            <div class="price price-third">
               <div class="new-prise">3500</div>
             </div> <!-- price -->
             <div class="btn-store">
@@ -432,7 +426,7 @@
         </div> <!-- product-item-wrp-img -->
         <div class="wrp-product">
           <h3 class="title-link link-product">Шестиугольная рамка</h3>
-          <p>Необычная рамка для украшения дома из видео <a class="link-content-shop" href="#0"> «Как сделать рамку из подручных средств за 30 минут» здесь</a>.</p>
+          <p class="text-store">Необычная рамка для украшения дома из видео <a class="link-content-shop" href="#0"> &laquo;Как сделать рамку из подручных средств за 30 минут&raquo; здесь</a>.</p>
           <div class="product-info">
             <div class="price">
               <div class="old-prise">500</div>
@@ -454,21 +448,21 @@
 
 <!--   FOOTER   -->
     
-<footer class="footer">
-  <div class="container">
-    <ul class="footer-wrap">
-      <li class="footer-item">
-        <a href="#0" class="footer-link ball"><div class="visually-hidden" aria-hidden="true">ball</div></a>
-      </li>
-      <li class="footer-item">
-        <a href="#0" class="footer-link pin"><div class="visually-hidden" aria-hidden="true">pinterest</div></a>
-      </li>
-      <li class="footer-item">
-        <a href="#0" class="footer-link tw"><div class="visually-hidden" aria-hidden="true">twitter</div></a>
-      </li>
-    </ul>
-    <div class="footer-copirate">Copyright © 2009–2019 City Blog LLC.</div>
-  </div>
-</footer>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-wrap">
+        <li class="footer-item">
+          <a href="#0" class="footer-link ball"><div class="visually-hidden" aria-hidden="true">ball</div></a>
+        </li>
+        <li class="footer-item">
+          <a href="#0" class="footer-link pin"><div class="visually-hidden" aria-hidden="true">pinterest</div></a>
+        </li>
+        <li class="footer-item">
+          <a href="#0" class="footer-link tw"><div class="visually-hidden" aria-hidden="true">twitter</div></a>
+        </li>
+      </ul>
+      <div class="footer-copirate">Copyright © 2009–2019 City Blog LLC.</div>
+    </div>
+  </footer>
 </body>
 </html>
