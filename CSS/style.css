@@ -18,7 +18,7 @@ a {
   src: url("../Fonts/OpenSans-Bold.ttf") format("truetype"),
        url("../Fonts/OpenSans-Bold.woff") format("woff"),
        url("../Fonts/OpenSans-Bold.woff2") format("woff2");
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -119,7 +119,7 @@ body {
   margin-bottom: 40px;
   margin-top: 0;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 19px;
   line-height: 1.2;
@@ -207,7 +207,7 @@ body {
   cursor: pointer;
   margin-top: 18px;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 15px;
 
@@ -318,7 +318,7 @@ h1, .title-one {
   color: #ffffff;
   text-transform: uppercase;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 45px;
   line-height: 1.66;
@@ -341,7 +341,7 @@ h1, .title-one {
   margin-bottom: 40px;
   margin-top: 0;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 20px;
   line-height: 1.2;
@@ -472,7 +472,7 @@ h1, .title-one {
   text-transform: uppercase;
   color: #b59f5b;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   margin-right: 20px;
 }
@@ -480,7 +480,7 @@ h1, .title-one {
 .title-link{
   text-transform: uppercase;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 20px;
   line-height: 1.2;
@@ -509,7 +509,7 @@ h1, .title-one {
 .address { 
   font-style: normal;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   margin-left: 13px;
 }
@@ -549,7 +549,7 @@ h1, .title-one {
   position: relative;
   text-align: center;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 14px;
   margin-top: 0;
@@ -575,7 +575,7 @@ margin-top: 34px;
   font-size: 14px;
   line-height: 1.28;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   margin-top: 4px;
 }
@@ -697,7 +697,7 @@ margin-top: 34px;
   cursor: pointer;
   margin-top: 18px;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 15px;
 
@@ -727,7 +727,7 @@ margin-top: 34px;
     margin-bottom: 6px;
     text-transform: uppercase;
     font-family: open-sans-b, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     font-size: 12px;
     color: #0f0d0e;
@@ -748,7 +748,7 @@ margin-top: 34px;
 .topic__item {
   position: relative;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 14px;
   display: flex;
@@ -837,7 +837,7 @@ margin-top: 34px;
 .price {
   margin-top: 26px;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -874,7 +874,7 @@ margin-top: 34px;
   cursor: pointer;
   margin-top: 27px;
   font-family: open-sans-b, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 15px;
 }
@@ -1024,7 +1024,7 @@ margin-top: 34px;
   .wrp-sabject-text {
     padding: 32px 50px 4px 32px;
     font-family: open-sans-b, sans-serif;
-    font-weight: 400;  
+    font-weight: 700;  
     font-style: normal;
   }
 
@@ -1228,7 +1228,7 @@ margin-top: 34px;
     flex-wrap: wrap;
     gap: 3px;
     font-family: open-sans-b, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
   }
 
