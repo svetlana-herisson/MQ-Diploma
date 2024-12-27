@@ -52,7 +52,7 @@
         <div class="wrp-button-popup">
           <button class="button-popup" type="submit"></button>
         </div>
- 
+      </form>
     </div>
   </div>
 
@@ -310,21 +310,25 @@
           </div>
         </article>
       </div>
-       
-          <lable class="lable-search">
-            <input type="text" class="field" name="text" placeholder="Найти...">
-            <span class="visually-hidden" aria-hidden="true">Найти...</span>
-            <button class="bottom" type="submit"></button>
-         </lable>
+      <form class="lable-search">
+        <label>
+          <span class="visually-hidden">Введите текст для поиска</span>
+        </label>
+          <input type="text" class="field" name="text" placeholder="Найти...">
+          <button class="bottom" type="submit"></button>
+      </form>
+        
       </section> <!--новые посты-->
     
       <section class="section"> <!--рассылка-->
         <h3 class="subject section-title">Рассылка</h3>
-          <lable class="form-email">
+        <form class="form-email">
+          <label  >
+            <span class="visually-hidden" aria-hidden="true">Введите ваш email-адрес</span>
+          </label>
             <input type="text" class="field-email" name="text" placeholder="Ваш email-адрес">
-            <span class="visually-hidden" aria-hidden="true">Ваш email-адрес</span>
            <button class="button-email" type="submit"></button>
-          </lable>
+        </form> 
       </section> <!--рассылка-->
    
       <section class="section"> <!--теги-->
